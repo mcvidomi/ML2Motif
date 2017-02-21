@@ -1,6 +1,6 @@
 # ML2Motif
 
-# required installations
+# Required installations
 
 1. shogun toolbox<br />
     http://www.shogun-toolbox.org/doc/en/3.0.0/installation.html<br />
@@ -12,7 +12,7 @@
         biocLite("seqLogo")<br />
 
 
-# tutorial
+# Tutorial
 
 Run "demo.py" script.
 
