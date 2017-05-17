@@ -119,7 +119,7 @@ def reshape_normalize_contribs(C, maxOrder, seqLen, opts={}):
 	numsy=4**(k+1);
 	for l in  xrange(0, seqLen-k):
             km=maxp_str[k,l] ;
-            A=numpy.abs(Contribs[k-1][numpy.floor(km/4),l]);
+            A=numpy.abs(Contribs[k-1][int(numpy.floor(km/4.)),l]);
             B=numpy.abs(Contribs[k-1][numpy.mod(km,numsy/4),l+1]);
             #zA=numpy.mod(km,4)+1;
             #zB=numpy.floor(km/(numsy/4))+1;
